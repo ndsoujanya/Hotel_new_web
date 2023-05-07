@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    ,
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM VALIDATION</title>
+    <link rel="stylesheet" href="book.css" />
+
+    <script
+      src="https://kit.fontawesome.com/2bbac3a66c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <form id="book-room" action="pay.html">
+      <div class="title">
+        <h2>Book Room</h2>
+      </div>
+      <!-- USERNAME -->
+      <div class="input-group">
+        <label for="username">Name</label>
+        <input type="text" id="username" placeholder="Name" name="username" />
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <p>Error Message</p>
+      </div>
+      <!-- EMAIL -->
+      <div class="input-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Email" name="email" />
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <p>Error Message</p>
+      </div>
+      <!-- PASSWORD -->
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          placeholder="Password"
+          name="password"
+        />
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <p>Error Message</p>
+      </div>
+
+      <!-- Address -->
+      <div class="input-group">
+        <label for="address">Address</label><br />
+        <textarea
+          rows="10"
+          cols="45"
+          id="address"
+          placeholder="Enter Address"
+          name="address"
+        ></textarea>
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <p>Error Message</p>
+      </div>
+
+      <!-- City -->
+      <div class="input-group">
+        <label for="city">City</label>
+        <input type="text" id="city" placeholder="City" name="city" />
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <p>Error Message</p>
+      </div>
+
+      <!-- State -->
+      <div class="input-group">
+        <label for="state">State</label>
+        <select id="state" placeholder="State" name="state">
+          <option selected>Karnataka</option>
+          <option>Kerala</option>
+          <option>Tamilnadu</option>
+          <option>Maharashtra</option>
+        </select>
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <p>Error Message</p>
+      </div>
+
+      <!-- Zip Code -->
+
+      <div class="input-group">
+        <label for="zip">Zip Code</label>
+        <input type="text" id="zip" placeholder="Zip Code" name="zip" />
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <p>Error Message</p>
+      </div>
+
+      <!-- Date of stay -->
+      <div class="input-group">
+        <label for="dateofstay">Date of Stay</label>
+        <input
+          type="date"
+          id="dateofstay"
+          placeholder="Date of Stay"
+          name="dateofstay"
+        />
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <p>Error Message</p>
+      </div>
+
+      <!-- Date of Out -->
+      <div class="input-group">
+        <label for="dateofout">Date of Check-Out</label>
+        <input
+          type="date"
+          id="dateofout"
+          placeholder="Date of Check-Out"
+          name="dateofout"
+        />
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <p>Error Message</p>
+      </div>
+
+      <!-- Type of Room -->
+      <div class="input-group">
+        <label for="room">Type of Room</label>
+        <select id="room" placeholder="Type of Room" name="room">
+          <option selected>Single Room</option>
+          <option>Double Room</option>
+          <option>Triple Room</option>
+          <option>Quad Room</option>
+          <option>Queen Room</option>
+          <option>King Room</option>
+        </select>
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <p>Error Message</p>
+      </div>
+
+      <!-- No. of Adults -->
+      <div class="input-group">
+        <label for="adults">No. of Adults</label>
+        <select id="adults" placeholder="No. of Adults" name="adults">
+          <option selected>One</option>
+          <option>Two</option>
+          <option>Three</option>
+        </select>
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <p>Error Message</p>
+      </div>
+
+      <!-- No. of Child -->
+      <div class="input-group">
+        <label for="child">No. of Children</label>
+        <select id="child" placeholder="No. of Children" name="child">
+          <option selected>One</option>
+          <option>Two</option>
+          <option>Three</option>
+        </select>
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <p>Error Message</p>
+      </div>
+
+      <button type="submit" class="btn">Procced to Pay</button><br /><br />
+    </form>
+    <br /><br />
+
+    <!-- JAVASCRIPT -->
+    <script src="book.js"></script>
+  </body>
+</html>

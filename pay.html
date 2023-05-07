@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    ,
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM VALIDATION</title>
+    <link rel="stylesheet" href="login.css" />
+
+    <script
+      src="https://kit.fontawesome.com/2bbac3a66c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <form id="login-form" action="result.html">
+      <div class="title">
+        <h2>Payment Page</h2>
+      </div>
+      <!-- Bank Account Number -->
+      <div class="input-group">
+        <label for="accno">Account Number</label>
+        <input type="accno" id="accno" placeholder="Acc" name="accno" />
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <p>Error Message</p>
+      </div>
+      <!-- IFSC code -->
+      <div class="input-group">
+        <label for="ifsc">IFSC code</label>
+        <input type="ifsc" id="ifsc" placeholder="IFSC code" name="ifsc" />
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <p>Error Message</p>
+      </div>
+
+      <button type="submit" class="btn">Pay</button>
+    </form>
+
+    <!-- JAVASCRIPT -->
+    <script src="login.js"></script>
+  </body>
+</html>
