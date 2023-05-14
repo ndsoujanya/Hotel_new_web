@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    ,
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM VALIDATION</title>
+    <link rel="stylesheet" href="login.css" />
+
+    <script
+      src="https://kit.fontawesome.com/2bbac3a66c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <form id="cancel-form" action="cancelsucc.html">
+      <div class="title">
+        <h2>Login</h2>
+      </div>
+      <!-- EMAIL -->
+      <div class="input-group">
+        <label for="name">Name</label>
+        <input type="name" id="name" placeholder="Name" name="name" />
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <p>Error Message</p>
+      </div>
+      <!-- PASSWORD -->
+      <div class="input-group">
+        <label for="res-no">Reservation Number</label>
+        <input
+          type="res-no"
+          id="res-no"
+          placeholder="res-no"
+          name="res-no"
+        />
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <p>Error Message</p>
+      </div>
+
+      <button type="submit" class="btn">Login</button>
+    </form>
+
+    <!-- JAVASCRIPT -->
+    <script src="cancel.js"></script>
+  </body>
+</html>
